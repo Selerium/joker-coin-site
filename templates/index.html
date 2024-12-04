@@ -1,0 +1,270 @@
+{% extends "base.html" %} {% block content %}
+
+<section
+  id="hero"
+  class="d-flex flex-column justify-content-end align-items-center min-vh-100 min-vw-100 pb-5"
+>
+  <img src="hero-img.svg" class="hero-img" />
+  <h1 class="w-75">Embrace the Chaos. Rule the Crypto Carnival</h1>
+  <div class="links d-flex gap-2">
+    <button
+      class="rounded-pill p-3 border-black border-4 border fs-4 d-flex justify-content-center align-items-center"
+    >
+      Buy Jokez
+    </button>
+    <button
+      class="rounded-pill p-3 border-black border-4 border fs-4 d-flex justify-content-center align-items-center"
+    >
+      <ion-icon
+        name="send-outline"
+        class="ps-2 fs-2"
+        style="transform: rotateZ(-45deg)"
+      ></ion-icon>
+    </button>
+    <button
+      class="rounded-pill p-3 border-black border-4 border fs-4 d-flex justify-content-center align-items-center"
+    >
+      <ion-icon name="logo-twitter" class="px-2 fs-2"></ion-icon>
+    </button>
+  </div>
+</section>
+
+<section
+  id="intro"
+  class="d-flex justify-content-center align-items-center min-vh-100 min-vw-100"
+>
+  <div
+    class="joker-icon col-md-5 col-12 justify-content-center align-items-center"
+  >
+    <video autoplay muted loop class="col-md-4 col-11">
+      <source src="red-smoke-bg.mp4" />
+    </video>
+    <img src="joker-img.svg" />
+  </div>
+  <div
+    class="joker-info d-flex flex-column col-md-7 col-12 justify-content-center align-items-center gap-4"
+  >
+    <div class="w-100 d-flex justify-content-center align-items-center">
+      <video autoplay muted loop class="hidden position-absolute col-md-6 col-11">
+        <source src="red-smoke-bg.mp4" />
+      </video>
+      <img src="joker-img.svg" style="z-index: 10" />
+    </div>
+    <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 style="z-index: 10" class="w-75 text-center fs-1">
+        WHAT HAPPENS WHEN CRYPTO MEETS CHAOS?
+      </h1>
+      <h3 style="z-index: 10" class="w-75 text-center fs-3">
+        A meme coin designed for risk-takers, troublemakers, and those who live
+        for the thrill.
+      </h3>
+      <video autoplay muted loop class="position-absolute col-md-6 col-11">
+        <source src="dice.mp4" />
+      </video>
+    </div>
+  </div>
+</section>
+
+<section
+  id="info"
+  class="d-flex flex-column py-5 gap-5 justify-content-between align-items-center min-vh-100 min-vw-100"
+>
+  <div class="heading d-flex w-100 justify-content-center align-items-center">
+    <img src="casino-1.svg" />
+    <h1 class="text-center px-4">IN CHAOS, WE TRUST</h1>
+    <img src="casino-2.svg" />
+  </div>
+  <div class="d-flex flex-wrap gap-5 justify-content-center align-items-center">
+    <div
+      class="col-2 info-box d-flex flex-column justify-content-center align-items-center gap-4"
+    >
+      <h4 class="text-center">30%</h4>
+      <h3 class="text-center">FAIR LAUNCH FOR THE COMMUNITY</h3>
+    </div>
+    <div
+      class="col-2 info-box d-flex flex-column justify-content-center align-items-center gap-4"
+    >
+      <h4 class="text-center">30%</h4>
+      <h3 class="text-center">
+        LIQUIDITY POOLS MATCHING 100% OF FAIR LAUNCH PROCEEDS
+      </h3>
+    </div>
+    <div
+      class="col-2 info-box d-flex flex-column justify-content-center align-items-center gap-4"
+    >
+      <h4 class="text-center">30%</h4>
+      <h3 class="text-center">MARKET-MAKING ACTIVITIES</h3>
+    </div>
+    <div
+      class="col-2 info-box d-flex flex-column justify-content-center align-items-center gap-4"
+    >
+      <h4 class="text-center">10%</h4>
+      <h3 class="text-center">AIRDROPS AND INCENTIVES</h3>
+    </div>
+  </div>
+  <h1 class="text-center">IN CHAOS, THERE IS FAIRNESS</h1>
+</section>
+
+<section
+  id="plan"
+  class="d-flex flex-column py-5 justify-content-between align-items-center min-vh-100 min-vw-100"
+>
+  <h1 class="fs-1 py-5 text-shadow text-center">From Gotham to the Moon</h1>
+  <div class="milestones">
+    <div class="mile d-flex flex-column align-items-center">
+      <h3 class="text-center p-2 rounded-4">Anarchy Reigns</h3>
+      <h5 class="text-center fs-6 col-9 fw-light text-wrap">
+        Full DAO implementation
+      </h5>
+    </div>
+    <div class="mile pt-5 d-flex flex-column align-items-center">
+      <h3 class="text-center p-2 rounded-4">Joker's Liquidity Circus</h3>
+      <h5 class="text-center fs-6 col-9 fw-light text-wrap">
+        Expansion into exchanges
+      </h5>
+    </div>
+    <div class="mile pt-5 d-flex flex-column align-items-center">
+      <h3 class="text-center p-2 rounded-4">Laughs Go Viral</h3>
+      <h5 class="text-center fs-6 col-9 fw-light text-wrap">
+        Marketing and meme competitions
+      </h5>
+    </div>
+    <div class="mile pt-5 d-flex flex-column align-items-center">
+      <h3 class="text-center p-2 rounded-4">Gotham Unleashed</h3>
+      <h5 class="text-center fs-6 col-9 fw-light text-wrap">
+        Launch and community-building
+      </h5>
+    </div>
+  </div>
+  <h2 class="text-shadow text-center" style="color: var(--red)">
+    The Path to Madness
+  </h2>
+</section>
+
+<section
+  id="call-to-action"
+  class="d-flex flex-column py-5 justify-content-end align-items-center min-vh-100 min-vw-100"
+>
+  <h1 class="text-shadow text-center" style="margin-bottom: 12vw">
+    Why So Serious? Join Us
+  </h1>
+  <h3 class="text-shadow text-center">Follow the</h3>
+  <img src="chaos-text.png" />
+</section>
+
+<section
+  id="steps"
+  class="d-flex flex-column justify-content-between align-items-center min-vh-100 min-vw-100"
+>
+  <div class="py-5 d-flex justify-content-center align-items-center w-75">
+    <h1 class="col-md-4 col-12 text-wrap text-center">
+      Step Right Up to the Crypto Carnival
+    </h1>
+  </div>
+  <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center">
+    <div
+      class="steps-box-container col-2 d-flex flex-column justify-content-between align-items-center"
+    >
+      <img />
+      <div
+        class="steps-box rounded-4 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h4 class="text-center">Set up your wallet</h4>
+        <h5 class="text-center">Think MetaMask. But make it clown-proof</h5>
+      </div>
+    </div>
+    <div
+      class="steps-box-container d-flex flex-column justify-content-between align-items-center"
+    >
+      <img />
+      <div
+        class="steps-box rounded-4 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h4 class="text-center">Select network as Base</h4>
+      </div>
+    </div>
+    <div
+      class="steps-box-container col-2 d-flex flex-column justify-content-between align-items-center"
+    >
+      <img />
+      <div
+        class="steps-box rounded-4 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h4 class="text-center">Get some wETH</h4>
+        <h5 class="text-center">Trust us, chaos need fuel</h5>
+      </div>
+    </div>
+    <div
+      class="steps-box-container col-2 d-flex flex-column justify-content-between align-items-center"
+    >
+      <img />
+      <div
+        class="steps-box rounded-4 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h4 class="text-center">Swap it for JokerCoin</h4>
+      </div>
+    </div>
+  </div>
+  <h1 class="py-5">Buy Jokez Now</h1>
+</section>
+
+<section
+  id="ending"
+  class="d-flex justify-content-center align-items-center min-vw-100"
+>
+  <img src="ending-bg.png" style="max-height: 80vh; max-width: 60vw" />
+  <div
+    class="d-flex flex-column justify-content-center align-items-center gap-4"
+  >
+    <h1 class="text-center" style="color: black">
+      The Crypto That Laughs Last
+    </h1>
+    <div class="links d-flex gap-2">
+      <button
+        class="rounded-pill p-3 border-black border-4 border fs-4 d-flex justify-content-center align-items-center"
+      >
+        <ion-icon
+          name="send-outline"
+          class="ps-2 fs-2"
+          style="transform: rotateZ(-45deg)"
+        ></ion-icon>
+      </button>
+      <button
+        class="rounded-pill p-2 border-black border-4 border fs-4 d-flex justify-content-center align-items-center"
+      >
+        <ion-icon name="logo-twitter" class="px-2 fs-2"></ion-icon>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section
+  id="footer"
+  class="d-flex flex-column gap-5 justify-content-center align-items-center min-vw-100"
+>
+  <video muted autoplay loop width="250px" height="auto" class="popup">
+    <source src="joker-popup.mp4" type="video/mp4" />
+  </video>
+  <button
+    class="rounded-5 border-black border border-4 text-center text-wrap p-2 col-xl-3 col-lg-4 col-md-4 col-8 fs-1"
+    onclick="popup()"
+  >
+    Jokez's Whitepaper
+  </button>
+  <p class="text-center popup">
+    Surprize! No plan, Born in chaos, JokerCoin is simply here to disrupt the
+    system.
+  </p>
+</section>
+
+<script>
+  list = document.getElementsByClassName('popup');
+  
+  function popup() {
+    for (element in list) {
+      list[element].classList.toggle('active');
+    }
+  }
+</script>
+
+{% endblock %}
